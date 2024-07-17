@@ -1,0 +1,33 @@
+--------------- Initial Setup ---------------
+
+git init
+
+git remote add origin https://github.com/username/repository.git
+
+git commit -m "Initial commit"
+
+git push -u origin master #first push, set the upstream
+
+git remote -v 
+
+--------------- Updating Code ---------------
+
+git add .
+
+git add <filename>
+
+git pull
+
+git commit -m "Your commit message"
+
+git push
+
+--------------- Others ---------------
+git status
+
+git checkout -b <branch-name>        # to create and switch to a new branch
+
+git checkout <branch-name>           # to swith between branches
+
+
+**** add - commit - pull - push
